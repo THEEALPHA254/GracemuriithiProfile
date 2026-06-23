@@ -1,0 +1,49 @@
+/* =================================================================== */
+/* MULTICOLORS - gradient rainbow
+====================================================================== */
+
+.line:before,
+.input-area-visual .send-btn,
+.btn-primary,
+.user-message .message-bubble,
+.single-project-card .project-media-wrapper .media-icon-overlay,
+.intro-screen .rounded-animation,
+.intro-screen .hello:before,
+.intro-screen .hello:after {
+    background: linear-gradient(135deg, #f06, #4a9eff, #0fa)
+}
+
+.message-bubble.single-project-card {
+    background: linear-gradient(135deg, #f06, #4a9eff, #0fa);
+}
+
+.intro-screen h1 span,
+.vertical-texts-container .vertical-text,
+.intro-bottom-content .quote p:before,
+.btn-primary.btn-secondary,
+.chat-footer .primary-nav .btn-primary-nav:hover,
+body.dark .chat-footer .primary-nav .btn-primary-nav:hover,
+.chat-footer .primary-nav .btn-primary-nav:hover i {
+    color: #f06;
+}
+
+.chat-footer .primary-nav .btn-primary-nav i {
+    color: rgba(255, 0, 102, .7);
+}
+
+.chat-footer .primary-nav .btn-primary-nav:hover,
+body.dark .chat-footer .primary-nav .btn-primary-nav:hover {
+   border-color: rgba(255, 0, 102, .7);
+}
+
+.btn-secondary {
+    border: 1px solid #f06;
+}
+
+.single-project-card {
+    border: 1px solid rgba(255, 0, 102, .1);
+}
+
+.chat-avatar {
+    border: 1px solid rgba(255, 0, 102, .3);
+}
