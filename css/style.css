@@ -1119,14 +1119,31 @@ body.dark .modal-overlay {
 
 .list-with-icons {
     margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
-.list-with-icons > span > span {
+.list-with-icons > span {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    line-height: 1.5;
+}
+
+.list-with-icons > span > i {
+    flex-shrink: 0;
+    width: 18px;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.list-with-icons > span > span > span {
     display: block;
     padding: 6px 0;
 }
 
-.list-with-icons > span > span i {
+.list-with-icons > span > span > span i {
     margin-right: 10px;
     text-align: center;
     max-width: 16px;
