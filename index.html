@@ -210,12 +210,11 @@
         <p class="intro">Ready to view my recent work? I’ll walk you through my projects one at a time. Click <strong>Show Next Project</strong> below to keep going.</p>
         <!-- Intro Ends -->
         <!-- Projects Data Starts -->
-        <!-- NOTE: project-1.png..project-4.png are placeholders — swap data-image per project with a real screenshot when ready. -->
         <div class="projects-data">
             <!-- Single Project Starts -->
             <div class="project-item"
                 data-title="Kingsway SACCO Platform"
-                data-image="img/projects/project-1.png"
+                data-image="img/projects/kingsway.png"
                 data-media="image">
                 <p class="summary">SACCO management system with member savings, loans, accounting and an audit trail. Django REST API backend with a Vue 3 + Vuetify admin frontend.</p>
             </div>
@@ -223,7 +222,7 @@
             <!-- Single Project Starts -->
             <div class="project-item"
                 data-title="Tyre Management System (TMS)"
-                data-image="img/projects/project-2.png"
+                data-image="img/projects/tms.png"
                 data-media="image">
                 <p class="summary">Fleet tyre lifecycle tracker — purchase, fitment, rotation, retread, scrap — with approvals and operational reports. Django REST API with a Vue 3 SPA frontend.</p>
             </div>
@@ -231,23 +230,31 @@
             <!-- Single Project Starts -->
             <div class="project-item"
                 data-title="BloomSuite — Salon &amp; Spa SaaS"
-                data-image="img/projects/project-3.png"
-                data-media="image">
+                data-image="img/projects/bloomsuite.png"
+                data-media="gallery">
                 <p class="summary">Multi-tenant SaaS for beauty businesses. Per-tenant data isolation and subscription-gated features, built with Node + Express + Prisma on PostgreSQL and a React (Vite) + Tailwind frontend, with a separate marketing site.</p>
+                <div class="gallery-urls">
+                    <img src="img/projects/bloomsuite.png" alt="">
+                    <img src="img/projects/bloomsuite2.png" alt="">
+                </div>
             </div>
             <!-- Single Project Ends -->
             <!-- Single Project Starts -->
             <div class="project-item"
                 data-title="Supermarket POS"
-                data-image="img/projects/project-4.png"
-                data-media="image">
+                data-image="img/projects/superpos_v2.png"
+                data-media="gallery">
                 <p class="summary">Production-ready point-of-sale with real M-Pesa Daraja STK push, cash payments, atomic stock management and real-time Socket.IO payment callbacks. React + Vite + Zustand frontend, Express + Prisma + Redis backend.</p>
+                <div class="gallery-urls">
+                    <img src="img/projects/superpos_v2.png" alt="">
+                    <img src="img/projects/checkout_v2.png" alt="">
+                </div>
             </div>
             <!-- Single Project Ends -->
             <!-- Single Project Starts -->
             <div class="project-item"
                 data-title="SuperPOS — Fast Checkout Demo"
-                data-image="img/projects/project-1.png"
+                data-image="img/projects/superpos1.png"
                 data-media="image">
                 <p class="summary">POS prototype demonstrating 2–4 second payment confirmation via BullMQ + Redis pub/sub + Socket.IO push, benchmarked against legacy 15–30 second polling. Built to pitch fast-payment infrastructure to supermarkets.</p>
             </div>
@@ -255,7 +262,8 @@
             <!-- Single Project Starts -->
             <div class="project-item"
                 data-title="Christian Author Ebooks Platform"
-                data-image="img/projects/project-2.png"
+                data-link="https://ebooks-frontend-czle.onrender.com/"
+                data-image="img/projects/ebooks.png"
                 data-media="image">
                 <p class="summary">Full-stack store for Christian ebooks. Customers browse titles, pay via M-Pesa STK Push and receive the PDF by email automatically. Vue 3 + Vite frontend, Django REST + PostgreSQL backend with Celery/Redis for delivery.</p>
             </div>
@@ -263,7 +271,7 @@
             <!-- Single Project Starts -->
             <div class="project-item"
                 data-title="Emmerce Payment Gateway Dashboard"
-                data-image="img/projects/project-3.png"
+                data-image="img/projects/paymentgatway.png"
                 data-media="image">
                 <p class="summary">Admin dashboard for the Emmerce Payment Gateway — auth, KYC flows and transactions. Built with React 19, Tailwind CSS 4 and Vite.</p>
             </div>
@@ -271,7 +279,8 @@
             <!-- Single Project Starts -->
             <div class="project-item"
                 data-title="Capture the Moment"
-                data-image="img/projects/project-4.png"
+                data-link="https://camera-pov.vercel.app/"
+                data-image="img/projects/capture_the_moment.png"
                 data-media="image">
                 <p class="summary">Mobile-first photo-sharing web app built for a graduation. Guests scan a branded QR code and upload directly from their phones to a live gallery. Vue 3 frontend, Vercel Python serverless API, Supabase and Google Drive storage.</p>
             </div>
@@ -279,7 +288,8 @@
             <!-- Single Project Starts -->
             <div class="project-item"
                 data-title="Life in One — Personal Life OS"
-                data-image="img/projects/project-1.png"
+                data-link="https://life-in-one-web.vercel.app/dashboard"
+                data-image="img/projects/life_in_one.png"
                 data-media="image">
                 <p class="summary">Multipurpose life dashboard — tasks, calendar, journal, budget, goals, health and Bible notes. React 18 + Vite + TypeScript on top of Supabase (Postgres, Auth, RLS, Realtime, Storage, Edge Functions), in a pnpm monorepo with shared core for a future React Native client.</p>
             </div>
@@ -287,15 +297,19 @@
             <!-- Single Project Starts -->
             <div class="project-item"
                 data-title="UTMS — University Transport Management"
-                data-image="img/projects/project-2.png"
-                data-media="image">
+                data-image="img/projects/UTMS.png"
+                data-media="gallery">
                 <p class="summary">Transport management system for The Catholic University of Eastern Africa — booking, routes and student scheduling. Dockerised Flask backend, HTML/JS admin dashboard and a native Android (Java) mobile app.</p>
+                <div class="gallery-urls">
+                    <img src="img/projects/UTMS.png" alt="">
+                    <img src="img/projects/UTMS_2.png" alt="">
+                </div>
             </div>
             <!-- Single Project Ends -->
             <!-- Single Project Starts -->
             <div class="project-item"
                 data-title="Shopeazy"
-                data-image="img/projects/project-3.png"
+                data-image="img/projects/SHOPEAZY.jpeg"
                 data-media="image">
                 <p class="summary">Cross-platform shopping app built in Flutter — targets Android, iOS, web, and desktop from a single codebase.</p>
             </div>
@@ -303,7 +317,7 @@
             <!-- Single Project Starts -->
             <div class="project-item"
                 data-title="CEC Website"
-                data-image="img/projects/project-4.png"
+                data-image="img/projects/CEC.png"
                 data-media="image">
                 <p class="summary">Corporate website covering services, directors, news and contact — hand-coded in HTML, CSS and JavaScript.</p>
             </div>
@@ -311,7 +325,7 @@
             <!-- Single Project Starts -->
             <div class="project-item"
                 data-title="Savory Website"
-                data-image="img/projects/project-1.png"
+                data-image="img/projects/savory.png"
                 data-media="image">
                 <p class="summary">Brand website for a food company covering story, brand, service, commitment and sustainability. Hand-coded static site.</p>
             </div>
@@ -319,7 +333,7 @@
             <!-- Single Project Starts -->
             <div class="project-item"
                 data-title="Music App UI"
-                data-image="img/projects/project-2.png"
+                data-image="img/projects/music.png"
                 data-media="image">
                 <p class="summary">UI concept for a music streaming app — albums, playlists and user profile — built in HTML and CSS.</p>
             </div>
@@ -375,7 +389,7 @@
             <!-- Intro Ends -->
             <!-- Direct Contact Items Starts -->
             <div class="direct-contact">
-                <div class="contact-row" data-label="Email :" data-icon="fa-regular fa-envelope-open">gracemuriithi.developer@gmail.com</div>
+                <div class="contact-row" data-label="Email :" data-icon="fa-regular fa-envelope-open">gracemuriithi.dev@gmail.com</div>
                 <div class="contact-row" data-label="Phone :" data-icon="fa-brands fa-whatsapp">+254 707 937103</div>
             </div>
             <!-- Direct Contact Items Ends -->
